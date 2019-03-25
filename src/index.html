@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/xindex.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="css/swiper.css" />
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+
+	</head>
+
+	<body>
+		<!--top-->
+		<div id="top">
+			<div class="top con">
+				<div class="top_dw">
+					<p>
+						<i class="icon_tdw"></i>
+						<span class="top_city">广东省</span>
+						<i class="icon_tjt"></i>
+					</p>
+					<ul class="top_dwcon">
+						<li>北京市</li>
+						<li>天津市</li>
+						<li>河北省</li>
+						<li>陕西省</li>
+						<li>湖南省</li>
+						<li>浙江省</li>
+						<li>浙江省</li>
+						<li>北京市</li>
+						<li>北京市</li>
+						<li>浙江省</li>
+						<li>浙江省</li>
+						<li>北京市</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>贵州省</li>
+						<li>贵州省</li>
+						<li>贵州省</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>河南省</li>
+						<li>上海市</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>安徽省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+					</ul>
+				</div>
+				<div class="top_lr">
+					<a class="top_log" href="html/login.html">
+						您好，请登录
+					</a>
+					<a class="top_reg" href="html/reg1.html">
+						免费注册
+					</a>
+				</div>
+				<div class="top_lr2">
+					<a href="#" id="logtel">
+						<span>暂无等级会员</span>
+					</a>
+					<i class="icon_tjt"></i>
+					<div>
+						<div class="touxiang">
+							<img src="img/avatar.gif" />
+						</div>
+						<div class="tuichu">
+							<span>
+								上次登录：
+								<span class="lasttime"></span>
+							</span>
+							<a href="#" id="loginOut">退出</a>
+						</div>
+					</div>
+				</div>
+				<ul class="top_menu">
+					<li>
+						<a href="#">我的订单</a>
+						<i class="icon_tjt"></i>
+						<ul>
+							<li>待支付</li>
+							<li>待确认</li>
+							<li>待评价</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">我的商城</a>
+						<i class="icon_tjt"></i>
+						<ul class="top_shop">
+							<li>站内消息</li>
+							<li>咨询回复</li>
+							<li>我的收藏</li>
+							<li>我的足迹</li>
+							<li>我的积分</li>
+							<li>我的优惠券</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">客户服务</a>
+						<i class="icon_tjt"></i>
+						<ul>
+							<li>购物指南</li>
+							<li>售后服务</li>
+							<li>商家服务</li>
+						</ul>
+					</li>
+					<li class="tm_last">
+						<i class="icon_tphone"></i>
+						<a href="#">手机商城</a>
+						<i class="icon_tjt"></i>
+						<div class="top_QDcode">
+							<img src="img/url.gif" alt="" />
+							<p>扫描二维码</p>
+							<p>更多优惠关注微信公众号</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<!--header-->
+		<div id="header">
+			<div class="header con">
+				<h1>
+					<a href="index.html"></a>
+				</h1>
+				<div class="searchbox">
+					<form id="search" action="#" method="post">
+						<input type="text" name="searchInput" id="searchInput" value="" placeholder="请输入您要搜索的商品关键字" />
+						<input type="submit" id="searchBtn" value="搜  索" />
+					</form>
+					<div class="keyword">
+						热门关键字：
+						<ul>
+							<li>软抽纸</li>
+							<li>农垦</li>
+							<li>黄金皮蛋</li>
+							<li>花印</li>
+							<li>玫瑰香橙</li>
+							<li>方家铺子</li>
+							<li>飞科</li>
+							<li>藏蜜牌野花蜜</li>
+							<li>秋木耳</li>
+						</ul>
+					</div>
+				</div>
+				<div class="hcar">
+					<a class="hcar_tt" href="html/car.html">
+						<span>我的购物车</span>
+						<i class="icon_car"></i>
+					</a>
+					<span class="hcar_s"></span>
+					<div class="hcar_con">
+						<h4>最新加入的加入的商品</h4>
+						<p>
+							您的购物车中暂无商品，赶快选择心爱的商品吧！
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--title-->
+		<div id="title">
+			<div class="title con">
+				<div class="classifylist">
+					<a href="#">所有商品分类
+						<i class="icon_wdown"></i>
+					</a>
+					<ul class="classifycon">
+						<!--<li data-slid="1">
+							<a href="#">休闲食品</a>/
+							<a href="#">即食罐头</a>
+							<div class="shopcon">
+								<div class="sc_l">
+									<h6>休闲小食  ></h6>
+									<ul>
+										<li>
+											<a href="#">膨化糕饼</a>
+										</li>
+										<li>
+											<a href="#">坚果炒货</a>
+										</li>
+										<li>
+											<a href="#">蜜饯糖果</a>
+										</li>
+										<li>
+											<a href="#">熟食肉干</a>
+										</li>
+										<li>
+											<a href="#">其他休闲食品</a>
+										</li>
+									</ul>
+									<h6>休闲小食  ></h6>
+									<ul>
+										<li>
+											<a href="#">膨化糕饼</a>
+										</li>
+										<li>
+											<a href="#">坚果炒货</a>
+										</li>
+										<li>
+											<a href="#">蜜饯糖果</a>
+										</li>
+										<li>
+											<a href="#">熟食肉干</a>
+										</li>
+										<li>
+											<a href="#">其他休闲食品</a>
+										</li>
+									</ul>
+								</div>
+								<div class="sc_r">
+									<img src="img/classifyshop1 (1).jpg"/>
+									<img src="img/classifyshop1 (2).jpg"/>
+									<img style="border-bottom: none;" src="img/classifyshop1 (3).jpg"/>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="#">水果</a>/<a href="#">水产</a>/
+							<a href="#">精选肉类</a>
+							<div class="shopcon">2</div>
+							
+						</li>
+						<li>
+							<a href="#">茗茶</a>/<a href="#">酒类</a>/
+							<a href="#">冲调茶饮</a>
+							<div class="shopcon">3</div>
+							
+						</li>
+						<li>
+							<a href="#">传统滋补</a>/
+							<a href="#">营养健康</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">跨境直邮</a>/
+							<a href="#">保健食品</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">厨房用具</a>/
+							<a href="#">厨房电器</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">家具</a>/<a href="#">家纺</a>/
+							<a href="#">家装卫浴</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">生活电器</a>/
+							<a href="#">3C数码</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">珠宝配饰</a>/
+							<a href="#">时尚钟表</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">服饰内衣</a>/<a href="#">鞋靴</a>/
+							<a href="#">箱包</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">美妆身体</a>/
+							<a href="#">个护清洁</a>
+							<div class="shopcon"></div>
+					
+							
+						</li>
+						<li>
+							<a href="#">保健器材</a>/
+							<a href="#">养生仪器</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						<li>
+							<a href="#">金银质饰品</a>/
+							<a href="#">字画收藏</a>
+							<div class="shopcon"></div>
+							
+						</li>
+						-->
+					</ul>
+				</div>
+				<ul>
+					<li>
+						<a href="#" style="color:#F30213;font-weight: 600;">首页</a>
+					</li>
+					<li>
+						<a href="#">TV直播</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--live-->
+		<div id="live">
+			<div class="live con">
+				<div class="nowlive">
+					<i></i>
+					<div>
+						<img src="img/radio.png" alt="" />
+						<p>美国西屋智能全自动马桶一体机</p>
+						<span><b>￥</b>3940.00</span>
+						<span>看直播</span>
+					</div>
+				</div>
+				<div class="nextlive">
+					<i></i>
+					<div>
+						<img src="img/nextlive.png" alt="" />
+						<p>东芝50英寸平面4k智能AI电视</p>
+						<span><b>￥</b>2499.00</span>
+					</div>
+				</div>
+				<img src="img/everyweek.gif" alt="" />
+			</div>
+		</div>
+		<!--focus-->
+		<div id="focus">
+			<div class="focus con">
+				<div class="swiper-container" id="swiper-container">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<img src="img/lunbo.jpg" />
+						</div>
+						<div class="swiper-slide" style="background: lavenderblush;"></div>
+						<div class="swiper-slide" style="background: lawngreen;"></div>
+						<div class="swiper-slide" style="background: lemonchiffon;"></div>
+						<div class="swiper-slide" style="background: lightcoral;"></div>
+					</div>
+					<!--按钮-->
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-button-next"></div>
+					<!--分页-->
+					<div class="swiper-pagination"></div>
+				</div>
+				<div class="focus_r">
+					<h5>今日最大牌</h5>
+					<img src="img/focus_r.jpg" alt="" />
+					<h6>虎镖官方旗舰店</h6>
+					<p>传承经典，口碑相传，居家必备，专注皮肤健康</p>
+				</div>
+			</div>
+		</div>
+		<!--seckill-->
+		<div id="seckill">
+			<div class="seckill con">
+				<div class="seckill_t">
+					<i></i>
+					<h2>秒杀专区</h2>
+					<a href="#">Spike zone ></a>
+					<div>
+						<span>本场秒杀</span>
+						<p class="djs">
+							<!--<span>12</span>:
+							<span>54</span>:
+							<span>54</span>-->
+						</p>
+						<span>后结束</span>
+					</div>
+				</div>
+				<div class="seckill_c">
+					<!--轮播列表-->
+					<ul id="movelist">
+						<li>
+							<img src="img/seckillgood (2).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥49.00</span>
+							<span><del>￥59.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (4).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥19.90</span>
+							<span><del>￥25.90</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (1).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥99.00</span>
+							<span><del>￥135.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (3).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥22.90</span>
+							<span><del>￥33.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (5).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥25.90</span>
+							<span><del>￥35.50</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (6).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥19.90</span>
+							<span><del>￥25.90</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (2).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥49.00</span>
+							<span><del>￥59.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (4).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥19.90</span>
+							<span><del>￥25.90</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (1).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥99.00</span>
+							<span><del>￥135.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (3).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥22.90</span>
+							<span><del>￥33.00</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (5).jpg" alt="" />
+							<i></i>
+							<p>福辰 青花瓷碗礼品盒 陶瓷餐具 套装六只装</p>
+							<span>￥25.90</span>
+							<span><del>￥35.50</del></span>
+						</li>
+						<li>
+							<img src="img/seckillgood (6).jpg" alt="" />
+							<i></i>
+							<p>【女王节活动】妍物油污净500g/瓶*1</p>
+							<span>￥19.90</span>
+							<span><del>￥25.90</del></span>
+						</li>
+					</ul>
+					<!--左右按钮-->
+					<div id="posibtn">
+						<p class="prev">&lt;</p>
+						<p class="next">&gt;</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!--foodfloor-->
+		<div id="foodfloor">
+			<div class="foodfloor con">
+				<h2>食品酒水</h2>
+				<div class="foodcon">
+					<div class="foodc_l">
+						<img src="img/foodfloor1.jpg" alt="" />
+						<ul>
+							<li>
+								<a href="html/listpage.html">
+									<span>理想生活</span>
+									<p>食于甜蜜</p>
+									<img src="img/foodfloor1_1 (2).jpg" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="html/listpage.html">
+									<span>热冲即食</span>
+									<img src="img/foodfloor1_1 (3).jpg" alt="" />
+									<p>轻松打造快手早餐</p>
+								</a>
+							</li>
+							<li>
+								<a href="html/listpage.html">
+									<span>粮油副食</span>
+									<img src="img/foodfloor1_1 (1).jpg" alt="" />
+									<p>营养膳食巧搭配</p>
+								</a>
+							</li>
+							<li>
+								<a href="html/listpage.html">
+									<span>即食罐头</span>
+									<img src="img/foodfloor1_1 (4).jpg" alt="" />
+									<p>美味随时享</p>
+								</a>
+							</li>
+						</ul>
+						<div>
+							<img src="img/foodfloor1 (1).jpg" alt="" />
+							<img src="img/foodfloor1 (2).jpg" alt="" />
+							<img src="img/foodfloor1 (3).jpg" alt="" />
+						</div>
+					</div>
+					<div class="foodc_r">
+						<img src="img/foodfloor2.jpg" alt="" />
+						<img src="img/foodfloor3.jpg" alt="" />
+						<ul>
+							<li>
+								<a href="html/listpage.html">
+									<span>养生器具</span>
+									<p>居家养生新文化</p>
+									<img src="img/foodfloor2_1 (1).jpg" alt="" />
+								</a>
+							</li>
+							<li>
+								<a href="html/listpage.html">
+									<span>纤体排毒</span>
+									<img src="img/foodfloor2_1 (2).jpg" alt="" />
+									<p>清除宿便促进代谢</p>
+								</a>
+							</li>
+						</ul>
+						<div>
+							<img src="img/foodfloor2 (1).jpg" alt="" />
+							<img src="img/foodfloor2 (2).jpg" alt="" />
+							<img src="img/foodfloor2 (3).jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--otherfloor-->
+		<div id="otherfloor">
+			<div class="otherfloor con">
+				<!--<div>
+						<h2>美妆护肤</h2>
+						<div>
+							<a href="#"><img src="img/otherfloor1 (1).jpg" alt="" /></a>
+							<ul>
+								<li>
+									<a href="#">
+										<span>补水亮肤</span>
+										<p>透现水嫩 鲜肌</p>
+										<img src="img/otherfloor2 (2).jpg" alt="" />
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<span>染护养三合一</span>
+										<p>开启秀发之美</p>
+										<img src="img/otherfloor2 (1).jpg" alt="" />
+									</a>
+								</li>
+							</ul>
+							<div>
+								<a href="#"><img src="img/otherfloor3 (1).jpg" alt="" /></a>
+								<a href="#"><img src="img/otherfloor3 (2).jpg" alt="" /></a>
+							</div>
+						</div>
+					</div>-->
+			</div>
+		</div>
+		<!--guesslike-->
+		<div id="guesslike">
+			<div class="guesslike con">
+				<div class="guessliketitle"></div>
+				<ul class="guesslikecon">
+					<!--<li>
+						<a href="#">
+						<img src="img/guesslikegood1.jpg"/>
+						<p>孚日毛巾家庭超值组</p>
+						<span>￥199.00</span>
+						</a>
+					</li>-->
+				</ul>
+			</div>
+		</div>
+		<!--ccti-->
+		<div id="ccti">
+			<div class="ccti">
+				<a class="ccti1" href="#"></a>
+				<a class="ccti2" href="#"></a>
+				<a class="ccti3" href="#"></a>
+				<a class="ccti4" href="#"></a>
+			</div>
+		</div>
+		<!--about-->
+		<div id="about">
+			<div class="about con">
+				<div class="about_l">
+					<h2>公告</h2>
+					<ul>
+						<li>
+							<a href="#">【公告】关于春节期间物流配送事宜</a>
+						</li>
+						<li>
+							<a href="#">【公告】央广购物推“超级服务中心”五大...</a>
+						</li>
+						<li>
+							<a href="#">【公告】有关对购买资中塔罗科血橙商品的用...</a>
+						</li>
+						<li>
+							<a href="#">【公告】书籍开启梦想 爱心孕育希望</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="abour_r">
+					<li>
+						<dl>
+							<dt>购物指南</dt>
+							<dd>
+								<a href="html/reg1.html">免费注册</a>
+							</dd>
+							<dd>
+								<a href="#">购物流程</a>
+							</dd>
+							<dd>
+								<a href="#">用户注册协议</a>
+							</dd>
+							<dd>
+								<a href="#">电子发票（自营商品）</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>商家服务</dt>
+							<dd>
+								<a href="#">店铺命名标准</a>
+							</dd>
+							<dd>
+								<a href="#">平台总则</a>
+							</dd>
+							<dd>
+								<a href="#">商家中心</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>支付配送</dt>
+							<dd>
+								<a href="#">支付方式</a>
+							</dd>
+							<dd>
+								<a href="#">配送范围</a>
+							</dd>
+							<dd>
+								<a href="#">配送时间</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>会员中心</dt>
+							<dd>
+								<a href="#">找回密码</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>售后服务</dt>
+							<dd>
+								<a href="#">超级服务中心</a>
+							</dd>
+							<dd>
+								<a href="#">售后服务政策</a>
+							</dd>
+							<dd>
+								<a href="#">无忧购物</a>
+							</dd>
+							<dd>
+								<a href="#">权威监督</a>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom con">
+				<p>
+					<a href="/">首页</a>|
+					<a href="https://www.cnrmall.com/article/list/199093">招商合作</a>|
+					<a href="https://www.cnrmall.com/article/info/22">关于央广购物</a>|
+					<a href="https://www.cnrmall.com/article/info/175304">联系我们</a>|
+					<a href="http://scm.cnrmall.com/veninfo/venlogin/index.jsp">成为供应商</a>
+				</p>
+				<p>
+					<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011502003547">京公网安备：11011502003547</a>
+					<a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备19000295号</a>
+					<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+					<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+					<a target="_blank" href="https://cnr-xiaopin.oss-cn-beijing.aliyuncs.com/certificate/%E5%89%AF%E6%9C%AC.jpg">营业执照</a>
+				</p>
+				<p>
+					Copyright © 2010-2019 cnrmall.com All Rights Reserved 服务热线：4008-518-518
+				</p>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+			
+
+	</body>
+
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/car.css" />
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/car.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--top-->
+		<div id="top">
+			<div class="top con">
+				<div class="top_dw">
+					<p>
+						<i class="icon_tdw"></i>
+						<span class="top_city">广东省</span>
+						<i class="icon_tjt"></i>
+					</p>
+					<ul class="top_dwcon">
+						<li>北京市</li>
+						<li>天津市</li>
+						<li>河北省</li>
+						<li>陕西省</li>
+						<li>湖南省</li>
+						<li>浙江省</li>
+						<li>浙江省</li>
+						<li>北京市</li>
+						<li>北京市</li>
+						<li>浙江省</li>
+						<li>浙江省</li>
+						<li>北京市</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>安徽省</li>
+						<li>贵州省</li>
+						<li>贵州省</li>
+						<li>贵州省</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>河南省</li>
+						<li>上海市</li>
+						<li>上海市</li>
+						<li>河南省</li>
+						<li>安徽省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+						<li>四川省</li>
+					</ul>
+				</div>
+				<div class="top_lr">
+					<a class="top_log" href="login.html">
+						您好，请登录
+					</a>
+					<a class="top_reg" href="reg1.html">
+						免费注册
+					</a>
+				</div>
+				<div class="top_lr2">
+					<a href="#" id="logtel">
+						<span>暂无等级会员</span>
+					</a>
+					<i class="icon_tjt"></i>
+					<div>
+						<div class="touxiang">
+							<img src="../img/avatar.gif" />
+						</div>
+						<div class="tuichu">
+							<span>
+								上次登录：
+								<span class="lasttime"></span>
+							</span>
+							<a href="#" id="loginOut">退出</a>
+						</div>
+					</div>
+				</div>
+				<ul class="top_menu">
+					<li>
+						<a href="#">我的订单</a>
+						<i class="icon_tjt"></i>
+						<ul>
+							<li>待支付</li>
+							<li>待确认</li>
+							<li>待评价</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">我的商城</a>
+						<i class="icon_tjt"></i>
+						<ul class="top_shop">
+							<li>站内消息</li>
+							<li>咨询回复</li>
+							<li>我的收藏</li>
+							<li>我的足迹</li>
+							<li>我的积分</li>
+							<li>我的优惠券</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">客户服务</a>
+						<i class="icon_tjt"></i>
+						<ul>
+							<li>购物指南</li>
+							<li>售后服务</li>
+							<li>商家服务</li>
+						</ul>
+					</li>
+					<li class="tm_last">
+						<i class="icon_tphone"></i>
+						<a href="#">手机商城</a>
+						<i class="icon_tjt"></i>
+						<div class="top_QDcode">
+							<img src="img/url.gif" alt="" />
+							<p>扫描二维码</p>
+							<p>更多优惠关注微信公众号</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		
+		<div id="cartitle">
+			<div class="cartitle con">
+				<h3>我的购物车</h3>
+				<h5>查看购物车中所添加的商品；增加减少数量、并勾选确认想要购买的商品进入下一步操作。</h5>
+			</div>
+		</div>
+		<!--购物车内容-->
+		<div id="carlist">
+			<form class="carlist con" action="#" method="post">
+				<ul class="carhead">
+					<li>
+						<span>
+							<input type="checkbox" name="allbtn" class="allbtn" value="" />
+							全选
+						</span>
+					</li>
+					<li>商品</li>
+					<li>数量</li>
+					<li>单价</li>
+					<li>优惠</li>
+					<li>金额</li>
+				</ul>
+				<div class="everyshop">
+					<!--<div class="shopname">
+						<input type="checkbox" class="shopnamebtn" value="" />
+						<span>官方店铺</span>
+					</div>
+					<div data-id="1" class="goodcontent">
+						<div class="goodcheckbox">
+							<input class="chosebtn" type="checkbox" name="chosebtn" value="" />	
+						</div>
+						<div class="goodimg">
+							<img src="../goodimg/listgood1.jpg"/>
+						</div>
+						<p class="goodtitle">
+							2018年云南墨江紫贡新米 货号124658 
+						</p>
+						<div class="goodnum">
+							<span class="cut1">-</span>
+							<input type="text" class="goodnewnum" value="2" />
+							<span class="add1">+</span>
+						</div>
+						<p class="goodprice">
+							￥258.0
+						</p>
+						<div class="goodsale">
+							<span>限时折扣</span>
+						</div>
+						<div class="goodtotal">
+							￥273.60
+						</div>
+					</div>-->
+					
+				</div>
+				<div class="carfoot">
+					<div class="actions">
+						<input type="checkbox" name="allbtn" class="allbtn" value="" />
+						全选
+						<span id="delbtn">
+							删除
+						</span>
+					</div>
+					<div class="summary">
+						<dl>
+							<!--<dt>选购商品种类：</dt>
+							<dd>
+								<span id="kindsTotal">0</span>种
+							</dd>-->
+							<dt>选购数量总计：</dt>
+							<dd>
+								<span id="quantityTotal">0</span>件
+							</dd>
+							<dt>商品金额总计：</dt>
+							<dd>
+								<strong id="allTotal">￥0.00</strong>
+							</dd>
+						</dl>
+					</div>
+					<div class="jiesuan">
+						结算
+					</div>
+				</div>
+			</form>
+		</div>
+		<!--about-->
+		<div id="about">
+			<div class="about con">
+				<div class="about_l">
+					<h2>公告</h2>
+					<ul>
+						<li>
+							<a href="#">【公告】关于春节期间物流配送事宜</a>
+						</li>
+						<li>
+							<a href="#">【公告】央广购物推“超级服务中心”五大...</a>
+						</li>
+						<li>
+							<a href="#">【公告】有关对购买资中塔罗科血橙商品的用...</a>
+						</li>
+						<li>
+							<a href="#">【公告】书籍开启梦想 爱心孕育希望</a>
+						</li>
+					</ul>
+				</div>
+				<ul class="abour_r">
+					<li>
+						<dl>
+							<dt>购物指南</dt>
+							<dd>
+								<a href="#">免费注册</a>
+							</dd>
+							<dd>
+								<a href="#">购物流程</a>
+							</dd>
+							<dd>
+								<a href="#">用户注册协议</a>
+							</dd>
+							<dd>
+								<a href="#">电子发票（自营商品）</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>商家服务</dt>
+							<dd>
+								<a href="#">店铺命名标准</a>
+							</dd>
+							<dd>
+								<a href="#">平台总则</a>
+							</dd>
+							<dd>
+								<a href="#">商家中心</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>支付配送</dt>
+							<dd>
+								<a href="#">支付方式</a>
+							</dd>
+							<dd>
+								<a href="#">配送范围</a>
+							</dd>
+							<dd>
+								<a href="#">配送时间</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>会员中心</dt>
+							<dd>
+								<a href="#">找回密码</a>
+							</dd>
+						</dl>
+					</li>
+					<li>
+						<dl>
+							<dt>售后服务</dt>
+							<dd>
+								<a href="#">超级服务中心</a>
+							</dd>
+							<dd>
+								<a href="#">售后服务政策</a>
+							</dd>
+							<dd>
+								<a href="#">无忧购物</a>
+							</dd>
+							<dd>
+								<a href="#">权威监督</a>
+							</dd>
+						</dl>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom con">
+				<p>
+					<a href="/">首页</a>|
+					<a href="https://www.cnrmall.com/article/list/199093">招商合作</a>|
+					<a href="https://www.cnrmall.com/article/info/22">关于央广购物</a>|
+					<a href="https://www.cnrmall.com/article/info/175304">联系我们</a>|
+					<a href="http://scm.cnrmall.com/veninfo/venlogin/index.jsp">成为供应商</a>
+				</p>
+				<p>
+					<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011502003547">京公网安备：11011502003547</a>
+					<a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备19000295号</a>
+					<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+					<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+					<a target="_blank" href="https://cnr-xiaopin.oss-cn-beijing.aliyuncs.com/certificate/%E5%89%AF%E6%9C%AC.jpg">营业执照</a>
+				</p>
+				<p>
+					Copyright © 2010-2019 cnrmall.com All Rights Reserved 服务热线：4008-518-518
+				</p>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,790 @@
+/*顶层： 定位  注册  登录 小菜单 二维码*/
+
+#top {
+	height: 35px;
+	border-bottom: 1px solid #E5E5E5;
+	background: #F5F5F5;
+}
+
+#top .top {
+	height: 35px;
+}
+
+#top .top .icon_tjt {
+	display: inline-block;
+	width: 7px;
+	height: 20px;
+	transition: all 0.2s linear;
+	float: left;
+	background: url("../img/web_common_pic.png") no-repeat -110px -50px;
+}
+
+#top .top .top_dw {
+	width: 99px;
+	height: 35px;
+	float: left;
+	position: relative;
+}
+
+#top .top .top_dw p {
+	width: 79px;
+	height: 20px;
+	border: 1px solid #F5F5F5;
+	border-bottom: 1px solid #E5E5E5;
+	line-height: 20px;
+	float: left;
+	padding: 7px 9px;
+}
+
+#top .top .top_dw p .icon_tdw {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	float: left;
+	background: url("../img/web_common_pic.png") no-repeat -40px 0;
+}
+
+#top .top .top_dw p .top_city {
+	display: inline-block;
+	width: 49px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #555;
+	padding-left: 3px;
+	float: left;
+}
+
+#top .top .top_dw p:hover {
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-bottom: 1px solid #FFF;
+}
+
+#top .top .top_dw p:hover .icon_tdw {
+	background: url("../img/web_common_pic.png") no-repeat -60px 0;
+}
+
+#top .top .top_dw p:hover .top_city {
+	color: #F30213;
+}
+
+#top .top .top_dw p:hover .icon_tjt {
+	transform: rotate(180deg);
+}
+
+#top .top .top_dw .top_dwcon {
+	position: absolute;
+	top: 35px;
+	left: 0;
+	width: 285px;
+	height: 275px;
+	background: #FFF;
+	border: 1px solid #DDD;
+	border-top: none;
+	padding: 4px 0 0 5px;
+	display: none;
+	z-index: 9;
+}
+
+#top .top .top_dw .top_dwcon li {
+	margin-top: 10px;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	padding-left: 5px;
+	width: 62px;
+	color: #555;
+	cursor: pointer;
+}
+
+#top .top .top_dw .top_dwcon li:hover {
+	color: #F30213;
+}
+
+#top .top .top_dw:hover .top_dwcon {
+	display: block;
+}
+
+#top .top .top_lr {
+	float: left;
+	height: 35px;
+	width: 150px;
+	margin-left: 590px;
+	display: none;
+}
+
+#top .top .top_lr a {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	margin-top: 10px;
+	float: left;
+}
+
+#top .top .top_lr .top_log {
+	width: 72px;
+	color: #F30213;
+}
+
+#top .top .top_lr .top_reg {
+	width: 48px;
+	color: #555;
+	margin: 10px 15px 0 8px;
+}
+
+#top .top .top_lr2 {
+	float: left;
+	height: 34px;
+	width: 197px;
+	margin-left: 520px;
+	padding-left: 12px;
+	position: relative;
+	transition: all 0.2s linear;
+	border: 1px solid transparent;
+}
+
+#top .top .top_lr2 a {
+	display: inline-block;
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	margin-top: 10px;
+	float: left;
+	color: #555;
+}
+
+#top .top .top_lr2 a span {
+	display: inline-block;
+	vertical-align: middle;
+	height: 16px;
+	padding: 1px 5px;
+	border-radius: 2px;
+	background-color: #555;
+	background-image: linear-gradient(180deg, #6A6A69, #4A4948);
+	color: #FFF8B5;
+	font-size: 11px;
+	line-height: 15px;
+	font-weight: 600;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+}
+
+#top .top .top_lr2 i {
+	margin: 9px;
+}
+
+#top .top .top_lr2> div {
+	position: absolute;
+	top: 35px;
+	left: -1px;
+	width: 260px;
+	height: 78px;
+	border: 1px solid #D6D6D6;
+	border-top: 0;
+	background: #FFF;
+	padding-top: 10px;
+	display: none;
+}
+
+#top .top .top_lr2> div .touxiang {
+	display: inline-block;
+	float: left;
+	width: 48px;
+	height: 48px;
+	border-radius: 100%;
+	margin-left: 10px;
+}
+
+#top .top .top_lr2> div .touxiang img {
+	max-width: 48px;
+	max-height: 48px;
+	border-radius: 100%;
+}
+
+#top .top .top_lr2> div .tuichu {
+	width: 150px;
+	float: left;
+	margin-left: 20px;
+	font-size: 12px;
+}
+
+#top .top .top_lr2> div .tuichu span {
+	display: block;
+	clear: both;
+	line-height: 20px;
+	font-weight: normal;
+}
+
+#top .top .top_lr2> div .tuichu a {
+	float: right;
+	font-weight: normal;
+}
+
+#top .top .top_lr2:hover {
+	border: 1px solid #D6D6D6;
+	border-bottom: 1px solid #FFF;
+	background: #FFF;
+}
+
+#top .top .top_lr2:hover> div {
+	display: block;
+}
+
+#top .top .top_lr2:hover .icon_tjt {
+	transform: rotate(180deg);
+}
+
+#top .top .top_menu {
+	float: left;
+	width: 366px;
+	height: 35px;
+}
+
+#top .top .top_menu> li {
+	width: 64px;
+	height: 20px;
+	float: left;
+	padding: 7px 9px;
+	border: 1px solid #F5F5F5;
+	border-bottom: 1px solid #E5E5E5;
+	position: relative;
+}
+
+#top .top .top_menu> li a {
+	display: inline-block;
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	text-align: center;
+	color: #555;
+	padding-right: 9px;
+}
+
+#top .top .top_menu> li i {
+	float: left;
+}
+
+#top .top .top_menu> li> ul {
+	position: absolute;
+	top: 35px;
+	left: -1px;
+	width: 82px;
+	background: #FFF;
+	border: 1px solid #D6D6D6;
+	border-top: none;
+	display: none;
+	z-index: 3;
+}
+
+#top .top .top_menu> li> ul li {
+	float: left;
+	width: 72px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #555;
+	padding-left: 10px;
+}
+
+#top .top .top_menu> li> ul li:hover {
+	color: #F30213;
+}
+
+#top .top .top_menu> li .top_shop {
+	width: 164px;
+}
+
+#top .top .top_menu> li:hover {
+	width: 64px;
+	height: 20px;
+	border: 1px solid #D6D6D6;
+	border-bottom: 1px solid #FFF;
+	background: #FFF;
+}
+
+#top .top .top_menu> li:hover a {
+	color: #F30213;
+}
+
+#top .top .top_menu> li:hover .icon_tjt {
+	transform: rotate(180deg);
+}
+
+#top .top .top_menu> li:hover> ul {
+	display: block;
+}
+
+#top .top .top_menu .tm_last {
+	width: 90px;
+}
+
+#top .top .top_menu .tm_last .icon_tphone {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url("../img/web_common_pic.png") no-repeat -120px 0;
+}
+
+#top .top .top_menu .tm_last .top_QDcode {
+	position: absolute;
+	top: 35px;
+	right: -1px;
+	height: 201px;
+	width: 178px;
+	padding-top: 20px;
+	border: 1px solid #D6D6D6;
+	border-top: none;
+	background: #FFF;
+	text-align: center;
+	display: none;
+	z-index: 3;
+}
+
+#top .top .top_menu .tm_last .top_QDcode img {
+	width: 140px;
+	height: 140px;
+	padding-bottom: 10px;
+}
+
+#top .top .top_menu .tm_last .top_QDcode p {
+	height: 16px;
+	line-height: 16px;
+	font-size: 12px;
+	text-align: center;
+	color: #666;
+}
+
+#top .top .top_menu .tm_last:hover {
+	width: 88px;
+}
+
+#top .top .top_menu .tm_last:hover .icon_tphone {
+	background: url("../img/web_common_pic.png") no-repeat -140px 0;
+}
+
+#top .top .top_menu .tm_last:hover .top_QDcode {
+	display: block;
+}
+#about {
+	height: 184px;
+	background: #FFF;
+}
+
+#about .about {
+	height: 184;
+}
+
+#about .about .about_l {
+	font-family: "微软雅黑";
+	width: 300px;
+	height: 134px;
+	float: left;
+	border-right: 1px solid #eaeaea;
+	margin: 25px 0 25px 2px;
+}
+
+#about .about .about_l h2 {
+	color: #666;
+	font-size: 14px;
+	height: 34px;
+	line-height: 34px;
+	margin-bottom: 2px;
+	padding-left: 20px;
+}
+
+#about .about .about_l ul {
+	padding-left: 15px;
+}
+
+#about .about .about_l ul li a {
+	display: block;
+	width: 250px;
+	white-space: nowrap;
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+	color: #999;
+}
+
+#about .about .abour_r {
+	font-family: "微软雅黑";
+	width: 823px;
+	white-space: nowrap;
+	margin-left: 50px;
+	padding: 20px 0;
+	float: left;
+}
+
+#about .about .abour_r li {
+	width: 20%;
+	float: left;
+}
+
+#about .about .abour_r li dl {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+#about .about .abour_r li dl dt {
+	display: block;
+	color: #666666;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 0 5px;
+	height: 32px;
+	line-height: 32px;
+}
+
+#about .about .abour_r li dl dd {
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	display: block;
+	clear: both;
+	padding: 2px 5px;
+	overflow: hidden;
+	font-family: "微软雅黑";
+	height: 24px;
+	line-height: 24px;
+	font-size: 12px;
+}
+
+#about .about .abour_r li dl dd a {
+	color: #999;
+}
+
+#bottom {
+	height: 180px;
+	background: #343A3A;
+}
+
+#bottom .bottom {
+	height: 180px;
+	text-align: center;
+}
+
+#bottom .bottom p {
+	padding-top: 15px;
+	height: 18px;
+	color: #eee;
+	line-height: 18px;
+	font-size: 12px;
+}
+
+#bottom .bottom p a {
+	padding: 0 5px;
+	display: inline-block;
+	color: #eee;
+}
+
+#bottom .bottom ul {
+	padding: 20px 0 10px;
+	width: 493px;
+	margin: 0 auto;
+}
+
+#bottom .bottom ul li {
+	float: left;
+	margin-right: 20px;
+}
+
+#bottom .bottom ul li a {
+	display: inline-block;
+	width: 108px;
+	height: 40px;
+}
+
+#bottom .bottom>ul li:nth-child(1) a {
+	background: url("../img/yangguang-footer.png") no-repeat 0 0;
+}
+
+#bottom .bottom ul li:nth-child(2) a {
+	background: url("../img/yangguang-footer.png") no-repeat -122px 0;
+}
+
+#bottom .bottom ul li:nth-child(3) a {
+	background: url("../img/yangguang-footer.png") no-repeat -244px 0;
+}
+
+#bottom .bottom ul li:nth-child(4) {
+	margin-right: 0;
+}
+
+#bottom .bottom ul li:nth-child(4) a {
+	background: url("../img/yangguang-footer.png") no-repeat -366px 0;
+}
+
+
+/*# sourceMappingURL=index.css.map */
+#cartitle{
+	height: 50px;
+	padding: 15px 0;
+}
+.cartitle{
+	height: 50px;
+}
+.cartitle h3{
+	font-size: 16px;
+	font-family: "微软雅黑";
+	color: #616161;
+	height: 30px;
+	line-height: 30px;
+}
+.cartitle h5{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #BFBFBF;
+	height: 20px;
+	line-height: 20px;
+}
+
+#carlist{
+	height: auto;
+}
+.carlist{
+	display: block;
+}
+.carhead{
+	display: block;
+	height: 30px;
+	padding: 4px 0;
+	border: 1px solid #E9E9E9;
+	background: #f3f3f3;
+}
+.carhead li{
+	float: left;
+	color:#212121;
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+}
+.carhead li:nth-child(1){
+	width: 90px;
+	padding-left: 18px;
+}
+.carhead li:nth-child(2){
+	width: 480px;
+	text-indent: 12px;
+}
+.carhead li:nth-child(3){
+	width: 166px;
+	text-indent: 70px;
+}
+
+.carhead li:nth-child(4){
+	width: 175px;
+	padding-right: 15px;
+	text-align: right;
+}
+.carhead li:nth-child(5){
+	width: 78px;
+	text-indent: 30px;
+}
+.carhead li:nth-child(6){
+	width: 150px;
+	text-align: right;
+}
+.everyshop{
+	margin-bottom: 20px;
+	background: #fff;
+	font-size: 12px;
+}
+.carlist .shopname{
+	height: 48px;
+	padding: 0 20px;
+	border-bottom: 2px solid #aaa;
+	line-height: 48px;
+	font-size: 12px;
+	color: #666;
+}
+.carlist .goodcontent{
+	padding: 20px 19px 25px 19px;
+	border-style: solid;
+    border-color: #F1F1F1;
+    border-width: 0 1px 1px;
+    color: #666;
+    font-size: 12px;
+    height: 91px;
+}
+.carlist .goodcheckbox{
+	margin-right: 5px;
+	float: left;
+	height: 16px;
+	padding-top: 2px;
+	width: 18px;
+}
+.chosebtn{
+	display: inline-block;
+	margin-right: 5px;
+	vertical-align: middle;
+	width: 13px;
+	height: 13px;
+}
+.carlist .goodimg{
+	float: left;
+	border: 1px solid #E1E1E1;
+	width: 80px;
+	height: 80px;
+}
+.carlist .goodimg img{
+	width:80px;
+	height: 80px;
+	
+}
+.carlist .goodtitle{
+	float: left;
+	margin-left: 15px;
+	width: 455px;
+	height: 91px;
+	color: #333;
+	font-size: 12px;
+}
+.carlist .goodnum{
+	float: left;
+	padding: 30px 34px 0 34px;
+	width: 98px;
+	height: 61px;
+	color: #616161;
+	font-size: 14px;
+}
+.carlist .goodnum span{
+	display: block;
+    width: 22px;
+    height: 24px;
+    text-align: center;
+    float: left;
+    border: solid #E1E1E1 1px;
+    border-radius: 3px 0 0 3px;
+    background-color: #FAFAFA;
+    line-height: 24px;
+}
+.carlist .goodnum span:nth-child(1){
+    border-right: 0;	
+}
+.carlist .goodnum span:nth-child(3){
+    border-left: 0;	
+}
+.carlist .goodnum input{
+	display: block;
+    float: left;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    padding: 2px 4px;
+    border: solid 1px #E1E1E1;
+    line-height: 20px;
+    font-size: 12px;
+    color: #777;
+}
+.carlist .goodprice{
+	padding-top: 30px;
+	float: left;
+	width: 175px;
+    padding-right: 15px;
+    text-align: right;
+    font-family: Tahoma;
+    line-height: 26px;
+    color: #616161;
+    height: 41px;
+    font-size: 12px;
+}
+.carlist .goodsale{
+	float: left;
+	width: 78px;
+	height: 41px;
+	text-align: center;
+	padding-top: 33px;
+}
+.carlist .goodsale span{
+	display: inline-block;
+    padding: 1px 4px;
+    border-radius: 2px;
+    background-color: #E4393C;
+    font-size: 11px;
+    line-height: 16px;
+    color: #FFF;
+    cursor: default;
+}
+.carlist .goodtotal{
+	float: left;
+	width: 150px;
+	text-align: right;
+	padding-top: 30px;
+	height: 41px;
+	padding-bottom: 9px;
+	line-height: 26px;
+    color: #E4393C;
+    font-size: 14px;
+    font-weight: 900;
+}
+.carlist .carfoot{
+	background-color: #EEE;
+    height: 56px;
+    border-bottom: solid 1px #E1E1E1;
+    line-height: 56px;
+	color: #666;
+}
+.carlist .carfoot .actions{
+	float: left;
+	padding-left: 20px;
+    width: 190px;
+    color: #222;
+	font-size: 12px;
+}
+.carlist .carfoot .actions span{
+	margin-left: 24px;
+	cursor: pointer;
+}
+.carlist .carfoot .actions span:hover{
+	color:red;
+}
+.summary{
+	float: left;
+    width: 820px;
+    height: 56px;
+}
+.summary dl{
+	display: block;
+    float: right;
+    height: 56px;
+    color: #666;
+}
+.summary dl dt{
+	float: left;
+	height: 56px;
+	width: 84px;
+	font-size: 12px;
+}
+.summary dl dd{
+	float: left;
+	margin-right: 30px;
+	font-size: 12px;
+}
+.summary dl dd span{
+	display: inline-block;
+    margin-right: 5px;
+    font-size: 16px;
+    color: #000;
+}
+.summary dl dd strong{
+	font-weight: bold;
+	display: inline-block;
+	margin-right: 5px;
+    font-size: 20px;
+    color: #E4393C;
+}
+.jiesuan{
+	float: right;
+	width: 150px;
+	height: 56px;
+	background-color: #E1E1E1;
+    color: #919191;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 56px;
+    font-weight: 600;
+}

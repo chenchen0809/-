@@ -1,0 +1,404 @@
+/*注册第一页css*/
+#regheader {
+	height: 90px;
+	padding-top: 5px;
+	background: #FFF;
+	border-bottom: 2px solid #F5F5F5;
+}
+
+.regheader {
+	width: 1000px;
+	margin: 0 auto;
+	height: 80px;
+}
+
+.regheader h1 {
+	margin-top: 10px;
+	width: 350px;
+	height: 68px;
+	float: left;
+}
+
+.regheader h1 a {
+	display: inline-block;
+	width: 240px;
+	height: 68px;
+	background: url(../img/index_logo.png) no-repeat;
+}
+
+.regToLogin {
+	float: right;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #AAA;
+	margin-top: 50px;
+}
+
+.regToLogin a {
+	font-weight: 600;
+	margin-left: 4px;
+	font-family: "微软雅黑";
+	color: #06C;
+}
+
+
+/*注册页内容*/
+
+#register {
+	height: 560px;
+	width: 100%;
+	padding: 60px;
+	background: url(../img/register_bg.png) repeat 50% 50%;
+}
+
+.register {
+	background: rgba(0, 0, 0, 0.15);
+	width: 860px;
+	height: 560px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.register .regcon {
+	background: #FFF;
+	width: 820px;
+	height: 520px;
+	padding: 19px;
+	border: 1px solid #ccc;
+}
+
+.register .regcon .regcon_l {
+	width: 600px;
+	height: 520px;
+	float: left;
+	border-right: 1px solid #E6E6E6;
+}
+
+.register .regcon .regcon_l h3 {
+	width: 472px;
+	height: 35px;
+	color: #999;
+	font-size: 16px;
+	padding-left: 108px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+.register .regcon .regcon_l>div {
+	padding: 50px 80px 0 100px;
+}
+
+.register .regcon .regcon_l .reg1con form dl {
+	background: #fff;
+	height: 52px;
+	margin-top: -1px;
+	border: 1px solid #E6E6E6;
+	position: relative;
+}
+
+.register .regcon .regcon_l .reg1con form>dl {
+	width: 398px;
+}
+
+.register .regcon .regcon_l .reg1con form dl dt {
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	width: 88px;
+	color: #666;
+	padding: 16px 0 16px 20px;
+	float: left;
+}
+
+.register .regcon .regcon_l .reg1con form dl dd {
+	height: 28px;
+	float: left;
+	padding: 12px 0;
+	position: relative;
+}
+.register .regcon .regcon_l .telpd{
+	position: absolute;
+	right: 0;
+	top:5px;
+	width: 153px;
+	height: 24px;
+	line-height: 24px;
+	background: #FFF5D9;
+	color: #000;
+	padding: 8px 12px 8px 24px;
+	font-size:12px;
+	display: none;
+}
+.icon-exclamation-circle{
+	display: inline-block;
+	font-size: 24px;
+	color: #ff500B;
+	margin-right: 12px;
+}
+.icon-uniF05C{
+	display: inline-block;
+	font-size: 24px;
+	color: #ff500B;
+	position: absolute;
+	right: 9px;
+	top: 16px;
+	display: none;
+}
+.register .regcon .yz_codebox {
+	width: 100%;
+	height: 54px;
+}
+
+.register .regcon .yz_codebox dl {
+	width: 277px;
+	float: left;
+}
+
+#yzCodeOut {
+	display: inline-block;
+	float: left;
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #E6E6E6;
+	background: #EEE;
+	text-align: center;
+	font-size: 30px;
+	color: #070707;
+	position: relative;
+	z-index: 1;
+}
+
+#yzCodeOut a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #E6E6E6;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: 900;
+	font-size: 12px;
+	display: none;
+}
+
+#yzCodeOut:hover a {
+	display: block;
+}
+
+.register .regcon .regcon_l .reg1con form>p {
+	font-size: 14px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+	width: 400px;
+	margin-top: 15px;
+	border: 0;
+	position: relative;
+}
+
+.register .regcon .regcon_l .reg1con form>p input {
+	margin-right: 8px;
+	vertical-align: middle;
+}
+
+.register .regcon .regcon_l .reg1con form>p a {
+	color: #06C;
+}
+.register .regcon .regcon_l .agreepd{
+	position: absolute;
+	right: 0;
+	top:0;
+	width: 153px;
+	height: 24px;
+	line-height: 24px;
+	background: #FFF5D9;
+	color: #000;
+	padding: 3px 12px;
+	font-size:12px;
+	display: none;
+}
+#regNextBtn{
+	margin-top: 15px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	background: #ff500b;
+	width: 398px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid #e4393c;
+	cursor: pointer;
+}
+.register .regcon .regcon_r {
+	height: 500px;
+	width: 200px;
+	float: right;
+	padding: 20px 0 0 19px;
+}
+.register .regcon .regcon_r h4{
+	font-size: 14px;
+	height: 20px;
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: #333;
+}
+.register .regcon .regcon_r ul li{
+	color: #999;
+	height: 24px;
+	line-height: 24px;
+	margin-bottom: 10px;
+	padding-left: 12px;
+	font-size: 12px;
+}
+.register .regcon .regcon_r ul li i{
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	vertical-align: middle;
+	background: url(../img/login_pic.png) no-repeat;
+}
+.register .regcon .regcon_r ul li:nth-child(1) i{
+	background-position:0 -76px;
+}
+.register .regcon .regcon_r ul li:nth-child(2) i{
+	background-position:-30px -76px;
+}
+.register .regcon .regcon_r ul li:nth-child(3) i{
+	background-position:-60px -76px;
+}
+.register .regcon .regcon_r ul li:nth-child(4) i{
+	background-position:-120px -76px;
+}
+.register .regcon .regcon_r ul li:nth-child(5) i{
+	background-position:-150px -76px;
+}
+
+/*注册第二页css*/ 
+.reg2con form>p{
+	font-size: 14px;
+    color: #666;
+    line-height: 30px;
+    width: 400px;
+    height: 30px;
+    margin-top: 15px;
+    border: 0;
+}
+.reg2con form dl{
+	background-color: #FFF;
+    width: 398px;
+    height: 52px;
+    margin-top: -1px;
+    border: solid 1px #E6E6E6;
+    position: relative;
+}
+.reg2con form dl dt {
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+    width: 88px;
+    padding: 16px 0 16px 20px;
+    float: left;
+}
+.reg2con form dl dd {
+    height: 28px;
+    float: left;
+    padding: 12px 0;
+}
+#yzCodeOut2 {
+	display: inline-block;
+	float: left;
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #E6E6E6;
+	background: #EEE;
+	text-align: center;
+	font-size: 30px;
+	color: #070707;
+	position: relative;
+	z-index: 1;
+}
+
+#yzCodeOut2 a {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 2;
+	width: 120px;
+	height: 52px;
+	line-height: 52px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #E6E6E6;
+	background: rgba(0, 0, 0, 0.5);
+	color: #fff;
+	font-weight: 900;
+	font-size: 12px;
+	display: none;
+}
+
+#yzCodeOut2:hover a {
+	display: block;
+}
+
+/*获取动态码*/
+.reg2con .tiptext{
+	line-height: 20px;
+    color: #999;
+    margin: 15px 0;
+}
+.reg2con .tiptext .reget{
+	display: none;
+	line-height: 22px;
+    color: #FFF;
+    background-color: #21b384;
+    vertical-align: middle;
+    /*display: inline-block;*/
+    height: 22px;
+    padding: 0 8px;
+    margin: 0 4px;
+    border-radius: 2px;
+    font-size: 12px;
+}
+.reg2con .tiptext span{
+	padding-left: 5px;
+    text-align: center;
+    font-size: 12px;
+}
+.reg2con .tiptext b{
+	color: #DD5A43;
+}
+#regright{
+	margin-top: 15px;
+	font-family: "微软雅黑";
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFF;
+    background-color: #FF500B;
+    width: 398px;
+    height: 42px;
+    border: solid 1px #e4393c;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.pswpd,.againpswpd{
+	position: absolute;
+	right: 0;
+	top:10px;
+	width: 153px;
+	height: 24px;
+	line-height: 24px;
+	background: #FFF5D9;
+	color: #000;
+	padding: 3px 12px;
+	font-size:12px;
+	display: none;
+}

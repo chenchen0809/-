@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/base.css" />
+		<link rel="stylesheet" type="text/css" href="../css/index.css" />
+		<link rel="stylesheet" type="text/css" href="../css/reg.css"/>
+		<link rel="stylesheet" type="text/css" href="../font_reg/iconfont.css"/>
+		<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="../js/reg2.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+
+	<body>
+		<!--header-->
+		<div id="regheader">
+			<div class="regheader">
+				<h1>
+					<a href="../index.html"></a>
+				</h1>
+				<div class="regToLogin">
+					我已经注册，现在就
+					<a href="login.html">登录</a>
+				</div>
+			</div>
+		</div>
+		<!--register-->
+		<div id="register">
+			<div class="register con">
+				<div class="regcon">
+					<div class="regcon_l">
+						<h3>手机注册</h3>
+						<div class="reg2con">
+							<form action="#" method="post">
+								<p>短信已发送至<span id="sendtel"></span>，请在10分钟内完成验证。</p>
+								<dl style="padding-top: 10px;">
+									<dt>动态码：</dt>
+									<dd>
+										<input type="text" id="phoneCode" name="reg2Code" placeholder="输入6位短信验证码" autocomplete="off" maxlength="6">
+									</dd>
+								</dl>
+								<div class="yz_codebox">
+									<dl>
+										<dt>验证码：</dt>
+										<dd>
+											<input type="text" name="yzCodeIn2" id="yzCodeIn2" value="" placeholder="输入验证码" />	
+											<i class="iconfont icon-uniF05C"></i>
+										</dd>
+									</dl>
+									<span id="yzCodeOut2">
+										<a href="#">看不清楚，更换一张</a>
+									</span>
+								</div>
+								<div class="tiptext">
+									<a class="reget" href="#">重新获取动态码</a>
+									<span class="dj60">
+										您可以在<b id="djs60">60</b>秒后再次获取动态码
+									</span>
+								</div>
+								<dl>
+									<dt>设置密码：</dt>
+									<dd>
+										<input type="password" id="userpsw" name="userpsw">
+									</dd>
+									<span class="pswpd">
+										<i class="iconfont icon-exclamation-circle"></i>
+										密码不能为空
+									</span>
+								</dl>
+								<dl>
+									<dt>确认密码：</dt>
+									<dd>
+										<input type="password" id="againpsw" name="againpsw">
+									</dd>
+									<span class="againpswpd">
+										<i class="iconfont icon-exclamation-circle"></i>
+										两次密码不一致
+									</span>
+								</dl>
+								<input type="button" value="立即注册" id="regright"/>
+							</form>
+						</div>
+					</div>
+					<div class="regcon_r">
+						<h4>注册之后您可以</h4>
+						<ul>
+							<li><i></i>购买商品支付订单</li>
+							<li><i></i>收藏商品收藏店铺</li>
+							<li><i></i>安全交易诚信无忧</li>
+							<li><i></i>会员等级享受特权</li>
+							<li><i></i>交易评价站外分享</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom con">
+				<p>
+					<a href="/">首页</a>|
+					<a href="https://www.cnrmall.com/article/list/199093">招商合作</a>|
+					<a href="https://www.cnrmall.com/article/info/22">关于央广购物</a>|
+					<a href="https://www.cnrmall.com/article/info/175304">联系我们</a>|
+					<a href="http://scm.cnrmall.com/veninfo/venlogin/index.jsp">成为供应商</a>
+				</p>
+				<p>
+					<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011502003547">京公网安备：11011502003547</a>
+					<a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备19000295号</a>
+					<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+					<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+					<a target="_blank" href="https://cnr-xiaopin.oss-cn-beijing.aliyuncs.com/certificate/%E5%89%AF%E6%9C%AC.jpg">营业执照</a>
+				</p>
+				<p>
+					Copyright © 2010-2019 cnrmall.com All Rights Reserved 服务热线：4008-518-518
+				</p>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>

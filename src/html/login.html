@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="../css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../css/index.css" />
+	<link rel="stylesheet" type="text/css" href="../css/login.css" />
+	<link rel="stylesheet" type="text/css" href="../font_reg/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="../layui/css/layui.css"/>
+	<script src="../js/common.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../layui/layui.js" type="text/javascript" charset="utf-8"></script>
+	<script src="../js/login.js" type="text/javascript" charset="utf-8"></script>
+	
+	<body>
+		<!--header-->
+		<div id="logheader">
+			<div class="logheader">
+				<h1>
+					<a href="../index.html"></a>
+					<span>欢迎登录</span>
+				</h1>
+			</div>
+		</div>
+		<!--safetytips-->
+		<div id="safetytips">
+			<div class="safetytips con">
+				<i class="icon-tips"></i>
+				<p>为确保您账户的安全及正常使用，依《网络安全法》相关要求，会员账户需绑定手机。如您还未绑定，请尽快完成，感谢您的理解及支持！</p>
+			</div>
+		</div>
+		<!--logincon-->
+		<div id="loginlay">
+			<div class="loginlay">
+				<div class="logincon">
+					<div class="logcon_t">
+						<ul>
+							<li><a class="log_active" href="#">用户登录</a></li>
+							<li><a href="#">手机动态码登录</a></li>
+						</ul>
+						<form action="#" method="post">
+							<div class="item">
+								<span></span>
+								<input type="text" id="logintel" name="logintel" autocomplete="off" placeholder="手机号/会员名/邮箱">
+								<p>
+									<i class="iconfont icon-exclamation-circle"></i>
+									用户名不能为空
+								</p>
+							</div>
+							<div class="item">
+								<span></span>
+								<input type="password" id="loginpsw" name="loginpsw" placeholder="输入账户密码" autocomplete="off">
+								<p>
+									<i class="iconfont icon-exclamation-circle"></i>
+									密码不能为空
+								</p>
+							</div>
+							<div class="item">
+								<span></span>
+								<input id="logincodeIn" type="text" name="logincodeIn" maxlength="4" placeholder="输入验证码" autocomplete="off">
+								<div>
+									<b class="logincodeOut"></b>
+									<a class="recode" href="#">看不清<br />换一张</a>
+								</div>
+								<p>
+									<i class="iconfont icon-exclamation-circle"></i>
+									请填写正确的验证码
+								</p>
+							</div>
+							<div class="safe">
+								<span>
+									<input type="checkbox" name="day7" id="day7" value="" />
+									七天自动登录
+								</span>
+								<a href="#">忘记密码</a>
+							</div>
+							<div class="item">
+								<input type="button" name="loginBtn" id="loginBtn" value="登录" />
+							</div>
+						</form>
+					</div>
+					<div class="logcon_b">
+						<ul>
+							<li>
+								<a href="#">
+									<i></i>
+									<span>微信&nbsp;&nbsp;&nbsp;&nbsp;|</span>
+								</a>
+							</li>
+							<li>
+								<a href="reg1.html">
+									<i></i>
+									立即注册
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--bottom-->
+		<div id="bottom">
+			<div class="bottom con">
+				<p>
+					<a href="/">首页</a>|
+					<a href="https://www.cnrmall.com/article/list/199093">招商合作</a>|
+					<a href="https://www.cnrmall.com/article/info/22">关于央广购物</a>|
+					<a href="https://www.cnrmall.com/article/info/175304">联系我们</a>|
+					<a href="http://scm.cnrmall.com/veninfo/venlogin/index.jsp">成为供应商</a>
+				</p>
+				<p>
+					<a href="https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11011502003547">京公网安备：11011502003547</a>
+					<a target="_blank" href="http://www.miitbeian.gov.cn/state/outPortal/loginPortal.action">京ICP备19000295号</a>
+					<a target="_blank" href="javascript:;">食品流通许可证编号：SP1101151210063489</a>
+					<a target="_blank" href="javascript:;">信息网络传播视听节目许可证 0102002号</a>
+					<a target="_blank" href="https://cnr-xiaopin.oss-cn-beijing.aliyuncs.com/certificate/%E5%89%AF%E6%9C%AC.jpg">营业执照</a>
+				</p>
+				<p>
+					Copyright © 2010-2019 cnrmall.com All Rights Reserved 服务热线：4008-518-518
+				</p>
+				<ul>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+					<li>
+						<a href="#"></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>
